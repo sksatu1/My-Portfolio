@@ -1,0 +1,19 @@
+.aboutContainer{
+background-color: rgba(128, 128, 128, 0.4);
+}
+
+.aboutHeading{
+    color: coral;
+    font-weight: 800;
+}
+
+.socialMedia span .icons{
+    margin-right: 5px;
+    font-size:large;
+    transition: 0.8s;
+}
+
+.socialMedia span:hover .icons{
+    transform: rotate(360deg);
+    /* -webkit-transform: rotate(360deg); */
+}

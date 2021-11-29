@@ -4,9 +4,20 @@ const Skill = () => {
     return (
         <div style={{ paddingTop: '60px' }} id="Skill">
             <h1>Skill</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus ab deserunt sequi vel dicta corrupti at nam rerum explicabo possimus iure, eaque iusto minus nobis. Quod repellat quibusdam officiis tempore molestiae similique harum expedita voluptates hic doloribus eum quam pariatur veniam ullam explicabo eaque quis nihil rerum id, obcaecati eveniet ratione fugit esse!
-            </p>
+
+            <div className="row row-cols-1 row-cols-md-2 text-start container">
+
+                <div className="col">
+                    <img width="100%" src="https://saruarhosenn.github.io/Front-End-Developer/assets/images/skill/skill.png" alt="" />
+                </div>
+
+                <div className="col">
+                    <div className="progress">
+                        <div className="progress-bar" role="progressbar" style={{ width: '25%' }} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                </div>
+
+            </div>
         </div>
     );
 };

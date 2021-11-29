@@ -1,8 +1,12 @@
+.headerName{
+    color: coral;
+    font-weight: 900;
+}
 li{
     margin: 5px 10px;
 }
 
 li  a{
     text-decoration: none;
-    color: rgb(71, 63, 63);
+    color: white
 }

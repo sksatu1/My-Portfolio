@@ -5,11 +5,10 @@ import satu1 from '../../images/satu-1.jpg'
 const Banner = () => {
     return (
         <div style={{ marginTop: '50px' }} id="HomeBanner">
-            <h1>Banner</h1>
 
-            <div class="container">
-                <div class="row row-cols-1 row-cols-md-2 text-start">
-                    <div class="col">
+            <div className="container">
+                <div className="row row-cols-1 row-cols-md-2 text-start">
+                    <div className="col">
                         <h4>Hello! <span>My name is</span> -</h4>
                         <h1>Sanat<span> Kumar</span></h1>
 
@@ -30,7 +29,7 @@ const Banner = () => {
                         <p>I'm highly motivated,hardworking and creative person who can make you satisfied to develop a website.</p>
 
                     </div>
-                    <div class="col">
+                    <div className="col">
                         {/* <img width="100%" src={satu1} alt="" /> */}
                     </div>
                 </div>
