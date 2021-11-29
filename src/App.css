@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('/src/images/BG-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken, luminosity;
+  color: white
 }
 
 .App-logo {
