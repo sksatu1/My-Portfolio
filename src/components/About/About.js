@@ -35,10 +35,10 @@ const About = () => {
 
                 {/*-------------- social media section ---------- */}
                 <div className="socialMedia my-3">
-                    <a href="https://www.facebook.com/profile.php?id=100007658595205" target="_blank"><span><FaFacebookSquare className='icons' /></span></a>
-                    <a href="https://www.instagram.com/sanatkumarmahanta/?hl=en" target="_blank"><span><FaInstagramSquare className='icons' /></span></a>
-                    <a href="https://www.linkedin.com/in/sanat-kumar-mohanta-b8aa53226/" target="_blank"><span><FaLinkedin className='icons' /></span></a>
-                    <a href="https://github.com/sksatu1" target="_blank"><span><FaGithubSquare className='icons' /></span></a>
+                    <a href="https://www.facebook.com/profile.php?id=100007658595205" target="_blank"><span><FaFacebookSquare style={{ fontSize: "30px" }} className='icons' /></span></a>
+                    <a href="https://www.instagram.com/sanatkumarmahanta/?hl=en" target="_blank"><span><FaInstagramSquare style={{ fontSize: "30px" }} className='icons' /></span></a>
+                    <a href="https://www.linkedin.com/in/sanat-kumar-mohanta-b8aa53226/" target="_blank"><span><FaLinkedin style={{ fontSize: "30px" }} className='icons' /></span></a>
+                    <a href="https://github.com/sksatu1" target="_blank"><span><FaGithubSquare style={{ fontSize: "30px" }} className='icons' /></span></a>
                 </div>
                 <a href="https://drive.google.com/file/d/1EBxwfj3gK72E623QWmy4x-NpO8q39vwY/view?usp=sharing" target="_blank"><button type="button" style={{ backgroundColor: '#df7954', color: 'white', padding: '10px 15px', borderRadius: '10px' }}><FaDownload /> Download Resume</button></a>
             </div>
