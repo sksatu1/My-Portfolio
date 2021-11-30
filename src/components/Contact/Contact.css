@@ -1,0 +1,21 @@
+/* input{ width:'80%'; display: 'block';margin:'10px auto' } */
+.inputField,textarea{
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    opacity: .6;
+    border-radius: 10px;
+}
+
+label{
+    text-align: left;
+}
+
+.submit-btn[type=submit]{
+    outline: none;
+    border: none;
+    padding: 5px 40px;
+    background-color: coral;
+    color: white;
+    border-radius: 10px;
+}

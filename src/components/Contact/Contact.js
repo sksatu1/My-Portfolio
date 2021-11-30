@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import './Contact.css'
 const Contact = () => {
 
     const form = useRef();
@@ -15,15 +16,16 @@ const Contact = () => {
             });
     }
     return (
-        <div>
+        <div className="container py-3">
+            <h1><span>Contact</span> Me</h1>
             <form ref={form} onSubmit={sendEmail}>
-                <label>Name</label>
-                <input type="text" name="user_name" />
+                <div><label>Name</label></div>
+                <input className="inputField" type="text" name="user_name" />
                 <label>Email</label>
-                <input type="email" name="user_email" />
+                <input className="inputField" type="email" name="user_email" />
                 <label>Message</label>
                 <textarea name="message" />
-                <input type="submit" value="Send" />
+                <input className='submit-btn' type="submit" value="Send" />
             </form>
         </div>
     );
