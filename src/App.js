@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './components/Home/Home';
+import Explore from './components/Explore/Explore';
 
 function App() {
   return (
@@ -14,6 +15,10 @@ function App() {
 
           <Route exact path='/home'>
             <Home></Home>
+          </Route>
+
+          <Route exact path='/explore/:id'>
+            <Explore></Explore>
           </Route>
 
         </Switch>

@@ -1,3 +1,8 @@
 .projects-container{
     background-color: rgba(128, 128, 128, 0.4);
+    padding: 50px;
+}
+
+h5{
+    color: coral;
 }
