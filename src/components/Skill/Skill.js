@@ -8,7 +8,7 @@ const Skill = () => {
             <div className="row row-cols-1 row-cols-md-2 text-start container">
 
                 <div className="col">
-                    <img width="100%" src="../../images/skill.png" alt="" />
+                    <img width="100%" src="https://i.ibb.co/zHH9T4L/skill.png" alt="" />
                 </div>
 
                 <div className="col d-flex flex-column justify-content-center">

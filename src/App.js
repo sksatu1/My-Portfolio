@@ -13,11 +13,11 @@ function App() {
             <Home></Home>
           </Route>
 
-          <Route exact path='/home'>
+          <Route path='/home'>
             <Home></Home>
           </Route>
 
-          <Route exact path='/explore/:id'>
+          <Route path='/explore/:id'>
             <Explore></Explore>
           </Route>
 

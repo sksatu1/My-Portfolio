@@ -36,6 +36,13 @@ const Header = () => {
                             </HashLink>
                         </li>
 
+
+                        <li className="nav-item">
+                            <HashLink smooth to="#Blogs">
+                                BLOGS
+                            </HashLink>
+                        </li>
+
                         <li className="nav-item">
                             <HashLink smooth to="#Contacts">
                                 CONTACTS

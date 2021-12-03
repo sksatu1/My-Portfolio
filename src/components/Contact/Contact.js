@@ -16,7 +16,7 @@ const Contact = () => {
             });
     }
     return (
-        <div id='Contacts' className="container py-3">
+        <div style={{ backgroundColor: 'rgba(128, 128, 128, 0.4)' }} id='Contacts' className="py-3">
             <h1><span>Contact</span> Me</h1>
             <form ref={form} onSubmit={sendEmail}>
                 <div><label>Name</label></div>
