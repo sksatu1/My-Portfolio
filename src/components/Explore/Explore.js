@@ -20,14 +20,16 @@ const Explore = () => {
         <div>
             <div style={{ textAlign: 'left', padding: '10px' }}>
                 <Link to='/home'><button className='explore-btn'>Back to Home</button></Link>
-                <div className="card mb-3">
-                    <div>
-                        <img style={{ width: '70%' }} src={selectedItem?.img1} class="card-img-top" alt="..." />
-                    </div>
+                <div className="p-5">
+                    <div className="card mb-3">
+                        <div>
+                            <img style={{ width: '70%' }} src={selectedItem?.img1} class="card-img-top" alt="..." />
+                        </div>
 
-                    <div class="card-body">
-                        <h5 class="card-title">{selectedItem?.name}</h5>
-                        <p style={{ color: "black" }} class="card-text"><span>Project info : </span>{selectedItem?.info}</p>
+                        <div class="card-body">
+                            <h5 class="card-title">{selectedItem?.name}</h5>
+                            <p style={{ color: "black" }} class="card-text"><span>Project info : </span>{selectedItem?.info}</p>
+                        </div>
                     </div>
                 </div>
             </div>
