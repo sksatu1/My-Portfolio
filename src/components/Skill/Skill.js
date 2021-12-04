@@ -30,41 +30,41 @@ const Skill = () => {
 
                     <div class="col">
                         {/*---------------------------------- children grid ----------------------------- */}
-                        <div class="container p-5">
+                        <div class="container" style={{ padding: '100px 0' }}>
                             <div class="row row-cols-3 g-5">
                                 <div class="col">
                                     <div>HTML5</div>
-                                    <FaHtml5 style={{ fontSize: "30px" }} className='icons' />
+                                    <FaHtml5 className="skilllIcon" style={{ fontSize: "30px" }} />
                                 </div>
                                 <div class="col">
                                     <div>CSS</div>
-                                    <FaCss3 style={{ fontSize: "30px" }} className='icons' /></div>
+                                    <FaCss3 className="skilllIcon" style={{ fontSize: "30px" }} /></div>
                                 <div class="col">
                                     <div>REACT</div>
-                                    <FaReact style={{ fontSize: "30px" }} className='icons' /></div>
+                                    <FaReact className="skilllIcon" style={{ fontSize: "30px" }} /></div>
                                 <div class="col">
                                     <div>JS</div>
-                                    <FaJs style={{ fontSize: "30px" }} className='icons' />
+                                    <FaJs className="skilllIcon" style={{ fontSize: "30px" }} />
                                 </div>
                                 <div class="col">
                                     <div>Bootstrap</div>
-                                    <FaBootstrap style={{ fontSize: "30px" }} className='icons' />
+                                    <FaBootstrap className="skilllIcon" style={{ fontSize: "30px" }} />
                                 </div>
                                 <div class="col">
                                     <div>Material UI</div>
-                                    <SiMaterialui style={{ fontSize: "30px" }} className='icons' />
+                                    <SiMaterialui className="skilllIcon" style={{ fontSize: "30px" }} />
                                 </div>
                                 <div class="col">
                                     <div>Tailwindcss</div>
-                                    <SiTailwindcss style={{ fontSize: "30px" }} className='icons' />
+                                    <SiTailwindcss className="skilllIcon" style={{ fontSize: "30px" }} />
                                 </div>
                                 <div class="col">
                                     <div>Mongo DB</div>
-                                    <SiMongodb style={{ fontSize: "30px" }} className='icons' />
+                                    <SiMongodb className="skilllIcon" style={{ fontSize: "30px" }} />
                                 </div>
                                 <div class="col">
                                     <div>Firebase</div>
-                                    <SiFirebase style={{ fontSize: "30px" }} className='icons' />
+                                    <SiFirebase className="skilllIcon" style={{ fontSize: "30px" }} />
                                 </div>
 
                             </div>
