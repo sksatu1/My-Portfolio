@@ -31,7 +31,7 @@ const Skill = () => {
                     <div class="col">
                         {/*---------------------------------- children grid ------------------------------- */}
                         <div class="container" style={{ padding: '100px 0' }}>
-                            <div class="row row-cols-3 g-5">
+                            <div class="row row-cols-1 row-cols-md-3 g-5">
                                 <div class="col">
                                     <div>HTML5</div>
                                     <FaHtml5 className="skilllIcon" style={{ fontSize: "30px" }} />
