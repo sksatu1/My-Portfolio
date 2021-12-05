@@ -29,7 +29,7 @@ const Skill = () => {
                     </div>
 
                     <div class="col">
-                        {/*---------------------------------- children grid ----------------------------- */}
+                        {/*---------------------------------- children grid ------------------------------- */}
                         <div class="container" style={{ padding: '100px 0' }}>
                             <div class="row row-cols-3 g-5">
                                 <div class="col">
