@@ -2,6 +2,7 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import './Banner.css'
 import satu1 from '../../images/satu-1.png'
+import { FaDownload } from 'react-icons/fa';
 const Banner = () => {
     return (
         <div style={{ marginTop: '60px' }} id="HomeBanner">
@@ -30,6 +31,7 @@ const Banner = () => {
                             </div>
 
                             <p>I'm highly motivated,hardworking and creative person who can make you satisfied to develop a website.</p>
+                            <a href="https://drive.google.com/file/d/1EBxwfj3gK72E623QWmy4x-NpO8q39vwY/view?usp=sharing" target="_blank"><button type="button" style={{ backgroundColor: '#df7954', color: 'white', padding: '10px 15px', borderRadius: '10px' }}><FaDownload /> Download Resume</button></a>
                         </div>
 
                     </div>
